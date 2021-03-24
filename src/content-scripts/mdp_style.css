@@ -1,0 +1,68 @@
+.MDPlus_Link_Button {
+    background : rgba(250, 250, 250, 0.8);
+    border : 1px solid black;
+    border-radius : 8px;
+    z-index : 1031;
+    text-align : center;
+    padding : 3px 8px;
+    margin : 10px 0;
+    text-decoration: none;
+
+    display : flex;
+    align-content : center;
+    align-items : center;
+    justify-content : center;
+}
+
+.MDPlus_Link_Button:hover {
+    background : rgba(50,50,50,0.8);
+    text-decoration: none;
+    border : 1px solid white;
+}
+
+.MDPlus_Counter_Container {
+    position : relative;
+    width : 75px;
+    background : rgba(250,250,250,0.06);
+    border : rgba(5,5,5,0.3);
+    border-radius : 10px;
+    display : flex;
+    justify-content : space-between;
+    align-content : center;
+    align-items : center;
+    margin : 5px 0;
+}
+
+.mdp_counter {
+    color : white;
+    text-align : center;
+    font-weight : bold;
+    padding : 0 5px;
+}
+
+.manga-entry {
+    border: 1px solid rgba(5,5,5,0.4);
+}
+
+#mdp_testClick {
+    align-content : center;
+    text-align : center;
+    padding : 5px 10px;
+    color : black;
+    background : rgba(250,250,250,0.75);
+    border : 1px solid black;
+    border-radius : 8px;
+    z-index : 1031;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#mdp_testClick:hover {
+    background : rgba(50,50,50,0.8);
+    color : white;
+    border : 1px solid white;
+}
